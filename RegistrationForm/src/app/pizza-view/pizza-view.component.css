@@ -1,0 +1,42 @@
+.card{
+    /* width:30px; */
+    border-radius: 16%   ;
+      width: 280px;
+      height:280px;
+      padding-top: 20px;
+    margin-left: 10px;
+      
+}
+.seven{
+  margin-left: 20px;
+}
+
+.six{
+  border: 2px solid white;
+  width: 300px;
+  border-color: white;
+ 
+  /* background-color:crimson */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  
+  border-radius: 16%  ;
+  margin: 20px;
+  box-shadow: 2px 2px 2px 2px;
+}
+
+.container{
+  /* display: flex; */
+  padding:30px;  
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  position: relative;
+  
+}
+
+.one{
+  margin-left: 120px;
+  position: relative;
+  bottom: 30px;
+}
+

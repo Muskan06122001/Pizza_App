@@ -1,0 +1,142 @@
+<!-- <p>registration-form works!</p>
+<button mat-button color="accent">Accent</button> -->
+
+<img class="eight" src="https://images.pexels.com/photos/5792328/pexels-photo-5792328.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" >
+
+<!-- <mat-toolbar-row class="three">
+  <span>The Recipe for a perfect evening</span>
+</mat-toolbar-row> -->
+
+<mat-card class="example-card">
+
+<div class="container2">
+    Registration Form
+  </div>
+  
+  <div class="container1">
+  <form [formGroup]="regform" >
+    
+      <!-- FirstName -->
+      <div class="one">
+      <div>
+          <mat-form-field class="increaseSize">
+            
+            <input matInput placeholder="CustomerName" formControlName="customerName">
+            <mat-error *ngIf="customerNameValidate?.touched && customerNameValidate?.invalid">
+              <!-- userName is get method writen in ts file or we can directly write  "regform.get('userName')-->
+              <span *ngIf="customerNameValidate?.errors?.['required']">
+               Customer Name is required  
+              </span>
+          
+            </mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+  
+  
+        <!-- email -->
+        <div class="eleven" >
+          <mat-form-field class="increaseSize">
+              <input  matInput placeholder="Email" formControlName="customerEmailId">
+              <mat-error *ngIf="customerEmailValidator?.touched && customerEmailValidator?.invalid">
+  
+                  <span *ngIf="customerEmailValidator?.errors?.['required']">
+                      Email is Required
+                  </span>
+                   <span *ngIf="customerEmailValidator?.errors?.['pattern']">
+                    Inavlid Pattern
+                   </span>
+  
+              </mat-error>
+          </mat-form-field>
+        </div>
+  
+  
+        <!-- password -->
+        <div class="one">
+        <div class="six">
+          <mat-form-field>
+              <input type="password" matInput placeholder="Password" formControlName="password">
+              
+              <mat-error *ngIf=" PasswordValidator?.touched && PasswordValidator?.invalid">
+
+                <span *ngIf="PasswordValidator?.errors?.['required']">
+                  Password is Required 
+              </span>
+                 <span *ngIf="PasswordValidator?.errors?.['pattern']">
+                  It should have one symbol,digit,upper,lowercase letter 
+                  
+                 </span >
+  
+                 <span *ngIf="PasswordValidator?.errors?.['minlength']">
+                     <!-- It Should have minimum 8 length -->
+                 </span>
+              </mat-error>
+          </mat-form-field>
+      </div>
+
+
+        <!-- address -->        
+        <div class="con1">
+           
+          <div >
+            <mat-form-field>
+              <input matInput placeholder="Address" formControlName="address">
+              <mat-error *ngIf="addressValidator?.touched && addressValidator?.invalid">
+                <span *ngIf="addressValidator?.errors?.['required']">
+                Address is required  
+                </span>
+            
+              </mat-error>
+            </mat-form-field>
+
+          </div>
+          </div>
+    
+         
+  
+        </div>
+
+            
+          
+          <div class="con1">
+            <mat-form-field>
+                <input matInput placeholder="Mobile Number" formControlName="mobileNo">
+                <mat-error *ngIf="MobileNumberValidator?.touched && MobileNumberValidator?.invalid">
+               
+                  <span *ngIf="MobileNumberValidator?.errors?.['required']">
+                    phoneNumber  is required  
+                   </span>
+
+                  <span *ngIf="MobileNumberValidator?.errors?.['ShouldBeGreaterthan9Digit']">
+                    Phone Number should have 10 digit
+                  </span>
+                
+                </mat-error>
+            </mat-form-field>
+        </div>
+
+           <div class="con2">
+          <button mat-raised-button color="primary">Reset</button>
+  
+          <span class="con3" >         
+           <button mat-raised-button [disabled]="regform.invalid" (click)="openSnackBar()" aria-label="Show an example snack-bar"> 
+               Submit       
+        </button> 
+
+          <!-- <button mat-raised-button   (click)="openSnackBar()" aria-label="Show an example snack-bar" >Submit</button> -->
+
+          </span>
+  
+        </div>
+  
+        
+  </form>
+</div>
+  
+</mat-card>
+
+  
+  
+  
+

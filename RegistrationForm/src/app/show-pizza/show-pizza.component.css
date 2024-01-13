@@ -1,0 +1,50 @@
+.six{
+    border: 2px solid white;
+    width: 300px;
+    border-color: white;
+   
+    /* background-color:crimson */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    
+    border-radius: 16%  ;
+    margin: 20px;
+    /* box-shadow: 2px 2px 2px 2px; */
+   display: flex;
+   
+   
+}
+
+.card{
+    /* width:30px; */
+    border-radius: 16%   ;
+      width: 280px;
+      height:280px;
+      padding-top: 20px;
+    margin-left: 10px;
+    display: flex;
+   
+  
+      
+}
+.seven{
+    margin-left: 20px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 15%  ;
+    height: 470px;
+    padding-right: 10px;
+   
+  }
+ 
+  .one{
+    margin-left: 180px;
+    position: relative;
+    bottom: 30px;
+  }
+  .two{
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+
+ 

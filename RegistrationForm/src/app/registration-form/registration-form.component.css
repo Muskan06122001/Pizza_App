@@ -1,0 +1,78 @@
+.mat-mdc-radio-button ~ .mat-mdc-radio-button {
+    margin-left: 16px;
+  }
+
+  .one{
+    display: flex;
+    margin-top: 20px;
+    /* padding-bottom: 40px; */
+  }
+  .con1{
+    margin-left: 10px;
+  
+  }
+  .increaseSize{
+    width: 450px;
+  }
+  .con2{
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    
+  }
+  .con3{
+    margin-left: 50px;
+  }
+  .container1{
+    
+    margin-left: 70px;
+    width:500px;
+     
+  }
+  .container2{
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: larger;
+    color: purple;
+  }
+
+  mat-form-field {
+    margin-right: 12px;
+  }
+
+  .example-card {
+    position: absolute;
+    top:-30px;
+    max-width: 800px;
+    margin-right: 200px;
+    margin-top: 150px;
+    margin-left: 340px;
+    margin-bottom: 900px;
+  }
+  .six{ 
+    padding-bottom: 40px;
+  }
+
+  .eight{
+  position: relative;
+  width: 1265px;
+  bottom: 55px;
+  height: 800px;
+  
+   
+   
+  }
+  .ten{
+    position: absolute;
+  }
+
+  .three{
+    position: relative;
+    font-size: 25px;
+    bottom: 960px;
+    color: red;
+    font-family:cursive;
+  }
+  .eleven{
+    margin-top: 30px;
+  }

@@ -1,0 +1,21 @@
+
+
+<mat-card-content >
+    
+    <div class="six" >
+    <div routerLink="/show-pizza/{{pizzaobj.pizzaId}}">
+    <img class="card" src="../../assets/{{pizzaobj.pizzaId}}.jpg">
+    <div class="seven">
+     <p>{{pizzaobj.pizzaId}}</p>   
+    <p>{{pizzaobj.varietyOfPizza}}</p>
+    <p>{{pizzaobj.priceOfPizza}}</p>
+    <p>{{pizzaobj.sizeOfPizza}}</p>
+   
+   <button class="one" mat-raised-button color="warn" (click)="addPizzaToCart()">Add to cart</button>
+   
+</div>
+</div>
+</div>
+
+
+</mat-card-content>

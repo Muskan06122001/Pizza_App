@@ -1,0 +1,46 @@
+  <img class="nine" src="https://media.istockphoto.com/id/1140348610/vector/pizza-delivery-man-cartoon-vector-illustration.jpg?s=612x612&w=0&k=20&c=tT8FPjeztVlvhJ8T2ataAw71Z7FD56a_I03pWPYhX2A=">
+    
+    <mat-card class="example-card">
+
+        <form  #LoginForm="ngForm" (ngSubmit)="submit()" >
+    <!-- User Email -->
+    <div class="example-container">
+        <mat-form-field class="increaseSize" >
+            <input   matInput placeholder="Email"  #userEmail="ngModel" name="userEmail" required
+                [(ngModel)]="details.customerEmailId">
+            <mat-error *ngIf="userEmail.invalid && userEmail.touched">
+              
+                <span *ngIf="userEmail.errors?.['required']">
+                    Customer Email is required
+                </span>
+
+            </mat-error>
+        </mat-form-field>
+    </div>
+
+
+    <!-- User Password-->
+    <div class="example-container">
+        <mat-form-field class="increaseSize">
+            <input class="one"  matInput placeholder="Password" type="password"  #Password="ngModel" name="Password" required
+                [(ngModel)]="details.password">
+            <mat-error *ngIf="Password.invalid && Password.touched">
+              
+                <span *ngIf="Password.errors?.['required']">
+                    Customer Password is required
+                </span>
+
+            </mat-error>
+        </mat-form-field>
+    </div>
+
+    <div class="container">
+        
+          <button mat-raised-button type="button"  color="primary" (click)="submit()"   [disabled]="LoginForm.invalid" (click)="openSnackBar()" aria-label="Show an example snack-bar"> Submit</button>
+
+      </div>
+</form>
+</mat-card>
+
+<!-- (ngSubmit)="savedata(LoginForm) (click)="submit()"" -->
+

@@ -1,0 +1,74 @@
+.card{
+    /* width:30px; */
+    border-radius: 16%   ;
+      width: 280px;
+      height:280px;
+      padding-top: 20px;
+    margin-left: 10px;
+      
+}
+
+.cont{
+    /* display: flex; */
+    padding:30px;
+    
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+
+}
+.container1{
+    /* position:relative; */
+    margin-top: 30px;
+    
+}
+        
+        
+    
+
+#searchButton{
+
+ margin-left: 400px;
+ display: flex;
+}
+
+.button{
+    margin-top: 20px;
+   margin-left: 10px;
+}
+.one{
+    width: 800px;
+    height: 800px;
+}
+.six{
+    border: 2px solid white;
+    width: 300px;
+    border-color: white;
+   
+    /* background-color:crimson */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    
+    border-radius: 16%  ;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.seven{
+    margin-left: 20px;
+}
+
+.two{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    bottom: 10px;
+}
+
+.eight{
+     float: right;
+     position: relative;
+     bottom: 80px;
+     margin-right: 10px;
+}
+.nine{
+    margin-left: 200px;
+    border-radius: 80%  ;
+}

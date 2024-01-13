@@ -1,0 +1,18 @@
+
+
+<div class="cont">
+<div *ngFor="let pizza of p">
+   
+   <app-pizza-view [pizzaobj]="pizza"></app-pizza-view>
+
+</div>
+</div>
+
+
+
+
+<button class="eight"   mat-fab color="warn" aria-label="Example icon button with a home icon" (click)="newMyCart()">
+    <span class="nine" class="material-symbols-outlined">
+        shopping_cart
+        </span>
+   </button>

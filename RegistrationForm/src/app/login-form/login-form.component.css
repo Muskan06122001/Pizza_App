@@ -1,0 +1,39 @@
+.example-container  {
+    margin-left: 40px;
+    padding: 20px;
+  
+  }
+  
+  .example-form-field {
+    margin-right: 20px;
+    
+    
+  }
+
+  .example-card {
+    max-width: 400px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    margin-left: 340px;
+  }
+
+  .container{
+    margin-left: 140px;
+    padding-bottom: 10px;
+  }
+  .increaseSize{
+    width: 300px;
+  }
+
+  .nine{
+    float: right;
+    width: 300px;
+    position: relative;
+    top: 100px;
+    
+  }
+  .ten{
+    position: absolute;
+    width: 1270px;
+    height: 600px;
+  }

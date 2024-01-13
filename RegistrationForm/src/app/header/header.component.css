@@ -1,0 +1,26 @@
+.cont{
+    margin-left: 1000px;
+}
+.material-symbols-outlined{
+    margin-left: 10px;
+}
+#one{
+  
+   float:right;
+  bottom:60px;
+  margin-right: 20px;
+
+
+}
+.three{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: green;
+    font-size: 30px;
+    
+}
+.four{
+    height: 1200px;
+    width: 1740px;
+    position: absolute;    
+    margin-left: -400px;
+}

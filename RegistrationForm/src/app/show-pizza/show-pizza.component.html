@@ -1,0 +1,20 @@
+
+
+<mat-card-content>
+    <!-- <div routerLink="/show-pizza/{{pizzaobj.pizzaId}}"> -->
+    <div class="six" *ngIf= "pizzaId" >
+    
+    <div class="seven" *ngIf = "pizzaId">
+    <img class="card"  src="../../assets/{{pizzaId.pizzaId}}.jpg">
+    <div class="two">
+    <p>{{pizzaId.pizzaId}}</p>   
+    <p>{{pizzaId.varietyOfPizza}}</p>
+    <p>{{pizzaId.priceOfPizza}}</p>
+    <p>{{pizzaId.sizeOfPizza}}</p>
+    <button class="one" mat-raised-button color="warn" >Buy</button>
+</div>
+</div >
+</div>
+
+       
+</mat-card-content>

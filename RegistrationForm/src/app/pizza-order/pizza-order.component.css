@@ -1,0 +1,59 @@
+#one{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 100px;
+     
+    
+}
+
+#two{
+    margin-left: 20px;
+    position: relative;
+     top: 250px;
+     
+    
+}
+
+.three{
+   
+    /* bottom:200px; */
+    margin-top: -250px;
+    margin-right: -800px;
+    margin-left: -360px;
+    width: 1290px;
+    background-size: cover;
+    height: 700px;
+
+    /* height: 1180px; */
+
+}
+
+.five{
+   position:absolute ;
+}
+
+.seven{
+    position: relative;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 100px;
+    font-size:100px;
+    color:rgb(121, 21, 21);
+    top:40px;
+   
+   
+}
+
+.eight{
+    position: relative;
+    font-family:cursive;
+    font-size: 25px;
+    margin-left: 160px;
+    top:160px;
+    color:brown;
+    border:2px ;
+    
+    width: 300px;
+}
+
+/* cheeseWeb, crispizza */
+  

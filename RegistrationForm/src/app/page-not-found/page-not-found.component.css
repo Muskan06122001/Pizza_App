@@ -1,0 +1,10 @@
+.one{
+    width: 500px;
+    margin-left: 300px;
+}
+
+.two{
+    position: relative;
+    
+    margin-left:-300px;
+}
